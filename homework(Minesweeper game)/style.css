@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+}
+
+.cells {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.cells > div {
+    border: 1px solid black;
+}
+
+.cells > div:hover{
+    cursor: pointer;
+}
+
+.gameOverScreen{
+    display: none;
+}
